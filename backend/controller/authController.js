@@ -123,3 +123,7 @@ exports.proccessUserLogout = async (req,res) => {
         return res.status(401).send('error')
     }
 }
+
+exports.getRequest = (req,res) => {
+    return res.status(200).send('success')
+}
